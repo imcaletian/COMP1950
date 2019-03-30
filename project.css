@@ -5,13 +5,9 @@
 
 
 body{
-   
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position:top;
     height: 100vh;
-    color: white;
+    background-color: rgb(232, 238, 237);
+    
     
 }
 
@@ -22,6 +18,7 @@ h1{
     margin-top: -108px;
     margin-bottom: 10px;
     margin-left: 110px;
+    color: white;
 }
 
 
@@ -29,6 +26,7 @@ h2{
    margin-left: 110px;
    padding-bottom: 10px;
    margin-top: -10px;
+   color: white;
 }
 
 
@@ -36,6 +34,7 @@ h3{
    margin-left: 110px;
    margin-top: 10px;
    padding-bottom: 80px;
+   color: white;
 }
 
 .logo{
