@@ -13,24 +13,26 @@
             <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
             <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
            
-        
-            <script>
-            //Agenda Accordion
+           
+           <script>
+              //Agenda Accordion
+                        
+                    $(document).ready(function(){
+                        
                 
-                $(document).ready(function(){
-        
-                $( function() {
-                    $( "#accordion" ).accordion({
-                            collapsible: true
+                        $( function() {
+                          $( "#accordion" ).accordion({
+                                 //collapsible: false
+                     });
+                    
+                    
                     });
-                });
-            
-            });
-        </script>
+                    });</script>
 
         </head>
 
         <body>
+        
             <!-- Header containing nav bar -->
             <header class="container">
                 <div class="banner">
@@ -61,14 +63,16 @@
                 </div>
 
             </header>
-            
+
             <!-- Side Agenda Accordion-->
+            
 
             <div id="accordion" class="agenda">
                 <h4>Agenda</h4>
                 <div>
                   <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
                 </div>
+                
                 <h5>Lecture 1</h5>
                 <div>
                 
@@ -85,5 +89,31 @@
                 </div>
               </div>
 
+              <div class="wrapper">
+                  <div class="topic1">
+                    <h5>Character Sets</h5>
+                      
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo in amet possimus voluptates dolorum officia ea aperiam doloremque, maiores explicabo asperiores, nihil dolor atque minima quas eum ab enim architecto!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo in amet possimus voluptates dolorum officia ea aperiam doloremque, maiores explicabo asperiores, nihil dolor atque minima quas eum ab enim architecto!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo in amet possimus voluptates dolorum officia ea aperiam doloremque, maiores explicabo asperiores, nihil dolor atque minima quas eum ab enim architecto!
+                            
+                        </p>
+                    </div>
+                    <div>
+
+                        <h5>HTML</h5>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minus blanditiis aut ad, vitae voluptates, in at ipsum amet ipsam natus quos harum, voluptate enim. Accusamus asperiores ab temporibus eaque.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sed consequuntur veritatis? Repellat commodi rem nemo nesciunt iste numquam vel! Natus voluptate, exercitationem iure omnis quidem neque recusandae veniam hic?
+                        </p>
+                    </div>
+                    <div>
+
+                       <h5>CSS</h5>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iusto eos recusandae, qui vitae voluptatum eaque magnam quibusdam rerum modi ad molestias? Quas sunt nostrum itaque aspernatur eaque dolores natus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sed consequuntur veritatis? Repellat commodi rem nemo nesciunt iste numquam vel! Natus voluptate, exercitationem iure omnis quidem neque recusandae veniam hic?
+                        </p>
+                     </div>
+                    
+              </div>
+              
+                  
         </body>
     </html>
