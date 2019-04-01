@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{ 
+    max-width: 1005px;
+    margin: -35px auto ;
+    padding: 2em 1em 2em 2em;
+    font-family:'Montserrat', sans-serif;
+    font-weight: lighter;
+    height: 100vh;
+    background-color: rgb(197, 196, 196);
+    
+    
+}
+
+.wrapper{
+    position: relative;
+    max-width: 5000px;
+    margin: -510px 340px;
+    margin-right: inherit;
+    display: block;
+    font-family:'Montserrat', sans-serif;
+    font-weight: lighter;
+    background-color: rgb(236, 240, 239);
+    border: 10px solid whitesmoke;
+    box-shadow: 0px 0px 0.4px 0px rgba(0, 0, 0, 0.95);
+    
+}
+
+
+/* Header title + logo */
+
+h1{
+    margin-top: -108px;
+    margin-bottom: 10px;
+    margin-left: 110px;
+    color: white;
+}
+
+
+h2{
+   margin-left: 110px;
+   padding-bottom: 10px;
+   margin-top: -10px;
+   color: white;
+}
+
+
+h3{
+   margin-left: 110px;
+   margin-top: 10px;
+   padding-bottom: 80px;
+   color: white;
+}
+
+.logo{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.banner{
+    background: grey;
+    background-position: center top;
+    display: block;
+    position: relative;
+}
+
+
+/*navigation bar */
+
+nav{
+    margin: -32px;
+    
+    position: absolute;
+    margin-left: auto;
+   
+    
+    
+}
+
+.navigation-bar{
+    background: black;
+}
+
+.navigation-bar ul{
+    margin: 0;
+ 
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+
+.navigation-bar ul li{
+    list-style: none;
+    
+}
+
+.navigation-bar ul li a{
+    padding: 10px;
+    font-size: 1.25em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(9, 58, 138);
+    
+    padding-right: 60px;
+    
+    
+}
+
+
+.navigation-bar ul li a:hover{
+    
+    border-bottom: 0.12px solid transparent;
+    color: white;
+
+}
+
+/* search icon */
+
+#searchbar {
+    position: absolute;
+    margin-left: 780px;
+    margin-top: -210px;
+    padding: 5px;
+    opacity: inherit;
+    background: rgb(255, 255, 255);
+    
+    
+}
+
+#searchbar ul li {
+    list-style:none;
+    
+}
+
+#searchbar ul li {
+    padding-left:5px;
+   
+}
+
+#search{
+    padding: 3px;
+    margin-left: 5px;
+    
+}
+
+/* Accordion - Agenda */
+
+#accordion{
+   
+    background:rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.95);
+    max-width: 300px;
+    max-height: 520px;
+    margin-top: 20px ;
+    border: 0.15px solid rgba(182, 182, 182, 0.726);
+    color: rgb(45, 99, 170);
+}
+
+h4{
+    
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 0.12px solid rgb(139, 139, 139);
+    
+    background: yellow;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+h5{
+   
+    font-size: 20px;
+    text-align: left;
+   
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom:  0.12px solid rgb(139, 139, 139);
+    padding-top: 10px;
+    padding-left: 10px;
+   
+}
+
+
+
+div >  p{
+    margin-top: 20px;
+    margin-left: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+    
+}
+
+/* Context */
+
+.wrapper > h5{
+    color: white;
+    background: rgb(9, 58, 138);
+    
+}
+
+.wrapper > div > h5{
+    color: white;
+    background: rgb(9, 58, 138);
+}

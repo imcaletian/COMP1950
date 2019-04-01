@@ -1,0 +1,151 @@
+@import "reset.css";
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alegreya', serif;
+    background-image: url("../img/prism.png");
+    background-repeat: repeat;
+    background-color: gray;
+    text-shadow: 1px 1px 5px grey;
+}
+
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    flex: 1 0 auto;
+    min-height: 100%;
+    align-items: stretch;
+    opacity: 0.9;
+}
+
+
+header, main, footer {
+    flex-shrink: 0;
+}
+header {
+    padding: 80px;
+    text-align: center;
+    background-color: pink;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F1F1F1;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    background-color: white;
+    font-size: 1.3em;
+    width: 100px;
+}
+
+nav a:hover{
+    background-color: pink;
+}
+
+nav a:target{
+    background-color: lightpink;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+main {
+    padding: 30px;
+    flex: 1;
+    line-height: 20pt;
+}
+
+img {
+    box-shadow: 3px 3px 10px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    display: inline-block;
+    padding: 1.5%;
+    text-align: center;
+}
+  
+.column:hover {
+    background-color: lavender;
+}
+
+.column h3{
+    display: inline-block;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width: 1024px) {
+    .column {
+      width: 100%;
+    }
+    
+    nav{
+        justify-content: column;
+    }
+  }
+
+#project {
+    text-align: top;
+    padding: 30px;
+}
+
+#project p{
+    padding-top: 10px;
+}
+.pagename {
+    text-align: center;
+}
+
+#project h2{
+    padding-bottom: 10px;
+}
